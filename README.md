@@ -1,5 +1,16 @@
 # Depth-Aware Generative Adversarial Network for Talking Head Video Generation
 
+## Installation
+```bash
+pip install -r requirements.txt
+
+## Install the Face Alignment lib
+cd face-alignment
+pip install -r requirements.txt
+python setup.py install
+```
+
+
 ## Training
 Please follow the instruction from https://github.com/AliaksandrSiarohin/video-preprocessing for VoxCeleb dataset.
 
